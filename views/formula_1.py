@@ -9,7 +9,7 @@ st.link_button('Análise no GitHub', 'https://github.com/SamuelRibeiro9')
 #Função para carregar a base de dados
 @st.cache_data
 def carregar_dados():
-    arquivo = pd.read_csv(r'C:\Users\Samuel\Desktop\Portfólio Python\Site\bases\f1_dados_tratados.csv', sep=';')
+    arquivo = pd.read_csv('bases/f1_dados_tratados.csv', sep=';')
     return arquivo
 
 df = carregar_dados()

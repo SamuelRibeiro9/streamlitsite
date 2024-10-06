@@ -10,7 +10,7 @@ st.divider()
 
 @st.cache_data
 def carregar_dados():
-    arquivo = pd.read_csv(r'C:\Users\Samuel\Desktop\Portfólio Python\Site\bases\energy_demand_brazil_tratado.csv', sep=';')
+    arquivo = pd.read_csv('bases/f1_dados_tratados.csv', sep=';')
     return arquivo
 
 df = carregar_dados()
