@@ -4,7 +4,7 @@ import pandas as pd
 st.title(''':red[Fórmula 1] :grey[Dashboard]''')
 st.write('''Painel interativo criado a apartir do tratamento de dados das bases das corridas de fórmula 1 de 1950 a 2024. Caso queira conferir algumas análises desse projeto
          clique no botão abaixo: ''')
-st.link_button('Análise no GitHub', 'https://github.com/SamuelRibeiro9')
+st.link_button('Análise no GitHub', 'https://github.com/SamuelRibeiro9/formula1stats')
 
 #Função para carregar a base de dados
 @st.cache_data
