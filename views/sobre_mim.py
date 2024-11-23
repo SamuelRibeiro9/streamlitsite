@@ -13,7 +13,7 @@ Principais projetos:
 - Implementação de planos de manutenção e inspeção em motores elétricos (Rivelli S/A)
 - Desenvolvimento de script em Python para identificação de materiais duplicados no sistema SAP (Rivelli S/A)
 - Desenvolvimento de dashboards no Grafana com dados de processos industriais (iSystems)
-- Desenvolvimento de software de simulação de sintonia de controle em malha fechada (iSystems)
+- Desenvolvimento de script para automatizar a criação de dashboards no Grafana (iSystems)
 ''')
 
 st.link_button('🖥️ Potfólio GitHub', 'https://github.com/SamuelRibeiro9')
@@ -24,7 +24,7 @@ col_esquerda.subheader(':blue[Softwares e Habilidades]')
 col_esquerda.write('''
                    - Pacote Office
                    - Power BI
-                   - Python (Pandas, Matplotlib, Pyplot, Streamlit, Seaborn, Numpy, Scikit-learn, Requests, Selenium)
+                   - Python (Pandas, Matplotlib, Numpy, Plotly, Request, Scikit-learn, Scipy, Streamlit, Seaborn, Selenium)
                    - SQL
                    - Grafana
                    - SAP S4/HANA
@@ -37,9 +37,12 @@ col_direita.subheader(':blue[Dasboards]')
 
 dash_f1 = col_direita.button('🏎️ F1 Dashboard')
 dash_energy = col_direita.button('🔋 Demanda de energia')
+house_prices = col_direita.button('🏠 Previsão de Imóveis')
 
 
-if dash_f1 == 1: 
+if dash_f1: 
     st.switch_page('views/formula_1.py')
-elif dash_energy == 1: 
+elif dash_energy: 
     st.switch_page('views/energy_case.py')
+elif house_prices:
+    st.switch_page('views/house_prices.py')
