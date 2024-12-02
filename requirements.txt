@@ -1,8 +1,0 @@
-pandas
-numpy
-geopandas
-streamlit
-pydeck
-shapely
-plotly
-joblib

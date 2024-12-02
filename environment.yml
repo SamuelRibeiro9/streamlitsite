@@ -29,7 +29,7 @@ dependencies:
   - brotli-python=1.1.0=py312h53d5487_1
   - bzip2=1.0.8=h2bbff1b_6
   - c-ares=1.33.0=h2466b09_0
-  - ca-certificates=2024.9.24=haa95532_0
+  - ca-certificates=2024.11.26=haa95532_0
   - cairo=1.18.0=h32b962e_3
   - certifi=2024.8.30=py312haa95532_0
   - cffi=1.17.0=py312h4389bb4_0
@@ -184,6 +184,7 @@ dependencies:
   - pixman=0.43.4=h63175ca_0
   - platformdirs=3.10.0=py312haa95532_0
   - plotly=5.24.1=py_0
+  - plotly_express=0.4.1=py_0
   - poppler=24.08.0=h686f694_0
   - poppler-data=0.4.12=hd8ed1ab_0
   - postgresql=16.4=hd835ec0_0
