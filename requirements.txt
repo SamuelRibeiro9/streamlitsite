@@ -1,8 +1,8 @@
-numpy==2.1.0
+numpy
 pandas==2.2.2
-geopandas==1.0.1
+geopandas
 streamlit==1.37.1
-pydeck==0.9.1
-shapely==2.0.6
+pydeck
+shapely
 plotly
 joblib==1.4.2
