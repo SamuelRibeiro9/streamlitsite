@@ -4,5 +4,5 @@ geopandas==1.0.1
 streamlit==1.37.1
 pydeck==0.9.1
 shapely==2.0.6
-plotly.express==0.4.1
+plotly
 joblib==1.4.2
