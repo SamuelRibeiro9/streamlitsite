@@ -1,6 +1,6 @@
-import geopandas as gpd
 import streamlit as st
 import pandas as pd
+import geopandas as gpd
 import pydeck as pdk
 import numpy as np
 import shapely
